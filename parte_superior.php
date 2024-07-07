@@ -1,39 +1,31 @@
 <!DOCTYPE html>
-<html lang="English">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <meta name="Proyecto de Tecera 1" content="widht=device-width, inicial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Desplegable</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 
 <body>
-    <nav>
-        <ul class="menu-horizontal">
-            <li><a href="#">Inicio</a></li>
-            <li>
-                <a href="#">Cursos</a>
+    <header>
+        <img class="logo" src="./img/Logo.png" alt="">
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
+            <button id="cerrar" class="cerrar-menu"><i class="bi bi-x-lg"></i></button>
+            <ul class="nav-list">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">¿Quienes somos?</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">¿Que hacemos?</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-                <ul class="menu-vertical">
-                    <li><a href="#">Html</a></li>
-                    <li><a href="#">Css</a></li>
-                    <li><a href="#">Javascript</a></li>
-                </ul>
-
-            </li>
-            <li>
-                <a href="#">Inscripcion</a>
-                <ul class="menu-vertical">
-                    <li><a href="#">Mensual</a></li>
-                    <li><a href="#">Anual</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
-
-    </nav>
-
+    <script src="./script/hamburger-icon.js"></script>
 </body>
 
 </html>
