@@ -25,54 +25,54 @@ header {
 }
 
 .nav-list {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px;
 	max-width: 500px;
 	width: 35rem;
 	height: auto;
 }
 
 .nav-list a {
-    font-family: sans-serif;
-    font-size: 15px;
-    text-decoration: none;
-    color: #fff;
+	font-family: sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	color: #fff;
 }
 
 .nav-list li {
-    position: relative;
-    list-style: none;
-    padding: 5px 0;
+	position: relative;
+	list-style: none;
+	padding: 5px 0;
 }
 
 .nav-list li::after,
 .nav-list li::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 2px;
-    background-color: #fff;
-    transition: all 0.6s ease-in-out;
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 2px;
+	background-color: #fff;
+	transition: all 0.6s ease-in-out;
 }
 
 .nav-list li::after {
-    top: 0;
-    right: 0;
-    transform-origin: right;
+	top: 0;
+	right: 0;
+	transform-origin: right;
 
 }
 
 .nav-list li::before {
-    left: 0;
-    bottom: 0;
-    transform-origin: left;
+	left: 0;
+	bottom: 0;
+	transform-origin: left;
 }
 
 .nav-list li:hover::after,
 .nav-list li:hover::before {
-    width: 100%;
+	width: 100%;
 }
 
 
@@ -137,6 +137,125 @@ body {
 }
 
 
+
+/* Region quienes somos*/
+.body-quienes-somos {
+	width: 100%;
+	height: 1500px;
+	justify-content: space-around;
+}
+
+.mid-Quienes-somos {
+	width: 90%;
+	height: auto;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 50px;
+	margin: auto;
+}
+
+.mid-Quienes-somos-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 600PX;
+	font-size: 36px;
+	font-weight: 700;
+	font-family: "Roboto", Sans-serif;
+	text-align: center;
+	padding-bottom: 10PX;
+}
+
+.mid-Quienes-somos-desc {
+	display: flex;
+	width: 90%;
+height: auto;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	font-weight: 500;
+	font-family: "Roboto", Sans-serif;
+}
+.mid-Mision {
+	width: 90%;
+	height: auto;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 50px;
+	margin: auto;
+
+}
+
+.mid-Mision-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 600PX;
+	font-size: 36px;
+	font-weight: 700;
+	font-family: "Roboto", Sans-serif;
+	text-align: center;
+	padding-bottom: 10PX;
+
+}
+
+.mid-Mision-desc {
+	display: flex;
+	width: 90%;
+height: auto;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	font-weight: 500;
+	font-family: "Roboto", Sans-serif;
+	
+}
+.mid-Vision {
+	width: 90%;
+	height: auto;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 50px;
+	margin: auto;
+}
+
+.mid-Vision-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 600PX;
+	font-size: 36px;
+	font-weight: 700;
+	font-family: "Roboto", Sans-serif;
+	text-align: center;
+	padding-bottom: 10PX;
+}
+
+.mid-Vision-desc {
+	display: flex;
+	width: 90%;
+height: auto;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding-bottom: 30px;
+	font-weight: 500;
+	font-family: "Roboto", Sans-serif;
+}
+/* end Region "quienes somos"*/
+
+
 /* Region footer*/
 
 footer {
@@ -189,7 +308,8 @@ footer {
 	}
 
 	.logo {
-		width: 150px; /* Ajusta el tamaño del logo según sea necesario */
+		width: 150px;
+		/* Ajusta el tamaño del logo según sea necesario */
 	}
 
 	/* Menu Styles */
@@ -239,7 +359,7 @@ footer {
 	}
 
 	.nav-list li a {
-		color: #ececec;	
+		color: #ececec;
 	}
 
 	/* Additional Styles */
