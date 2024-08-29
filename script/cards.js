@@ -76,8 +76,9 @@ const dataCards = [
     let CARD = {
         init: function () {
             let _self = this;
-            //Llamar a la función
+            // Llamar a las funciones
             this.insertData(_self);
+            this.scrollToCard(_self);
         },
 
         insertData: function (_self) {
@@ -92,10 +93,25 @@ const dataCards = [
                         <div class='card-info'>
                             <p class= 'card-title'>${item.title} </p>
                             <p class= 'card-desc'>${item.desc} </p>
-                            <a class= 'card-cta'target='blank' href='${item.link}'>${item.cta} </a>
+                            <a class= 'card-cta' target='blank' href='${item.link}'>${item.cta} </a>
                         </div>
                     </div>`
-            ) //el target='blank es para crearlo en una nueva pestaña
+            ); // el target='blank' es para abrir en una nueva pestaña
+        },
+
+        scrollToCard: function (_self) {
+            document.querySelector('a[href="#card-list-container"]').addEventListener('click', function (event) {
+                event.preventDefault(); // Prevenir el comportamiento predeterminado
+                const cardContainer = document.getElementById('card-list-container');
+                if (cardContainer) {
+                    cardContainer.scrollIntoView({ behavior: 'smooth' });
+                    // Abrir el primer card
+                    const firstCardItem = document.querySelector('.card-item');
+                    if (firstCardItem) {
+                        firstCardItem.classList.add('active'); // O cualquier acción para resaltar el primer card
+                    }
+                }
+            });
         }
     }
     CARD.init();

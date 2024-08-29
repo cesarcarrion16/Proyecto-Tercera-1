@@ -17,7 +17,7 @@
         <p class="mid-info-desc">Para romper las leyes hay que conocerlas.</p>
     </div>
  
-    <div class="card-list">
+    <div id="card-list-container"class="card-list">
     <div class="card-header">
         <h2>SERVICIOS</h2>
     </div>

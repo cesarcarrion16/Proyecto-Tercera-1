@@ -18,9 +18,8 @@
             <ul class="nav-list">
                 <li><a href="./index.php">Inicio</a></li>
                 <li><a href="#accordion-container">¿Quienes somos?</a></li>
-                <li><a href="./servicios.php">Servicios</a></li>
-                <li><a href="./que_hacemos.php">¿Que hacemos?</a></li>
-                <li><a href="./contactos.php">Contacto</a></li>
+                <li><a href="#card-list-container">Servicios</a></li>
+                <li><a href="#contacto-container">Contacto</a></li>
             </ul>
         </nav>
     </header>
