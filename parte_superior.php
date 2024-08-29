@@ -17,7 +17,7 @@
             <button id="cerrar" class="cerrar-menu"><i class="bi bi-x-lg"></i></button>
             <ul class="nav-list">
                 <li><a href="./index.php">Inicio</a></li>
-                <li><a href="./quienes_somos.php">¿Quienes somos?</a></li>
+                <li><a href="#accordion-container">¿Quienes somos?</a></li>
                 <li><a href="./servicios.php">Servicios</a></li>
                 <li><a href="./que_hacemos.php">¿Que hacemos?</a></li>
                 <li><a href="./contactos.php">Contacto</a></li>
@@ -26,7 +26,8 @@
     </header>
 
     <script src="./script/hamburger-icon.js"></script>
-    
+
 </body>
+
 
 </html>

@@ -5,19 +5,24 @@
     <p class="titulo-desc">"Cicerón"</p>
 
 </div>
+
 <body>
     <div class="main-img">
         <img src="./img/mid-img.png" alt="">
     </div>
-    <div class = "main-accordion-container"></div>
-    
-    <div class ="mid-info">
-            <p class="mid-info-title">Oferta Académica</p>
-            <p class="mid-info-desc">Decídete y escoge, que quieres estudiar</p>
-        </div>
+    <div id="accordion-container" class="main-accordion-container"></div>
 
-    <div class = "card-list"></div>
+    <div class="mid-info">
+        <p class="mid-info-title">Nuestro lema</p>
+        <p class="mid-info-desc">Para romper las leyes hay que conocerlas.</p>
+    </div>
+ 
+    <div class="card-list">
+    <div class="card-header">
+        <h2>SERVICIOS</h2>
+    </div>
 
+</div>
 </body>
 
 
